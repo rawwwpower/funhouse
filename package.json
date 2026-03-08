@@ -1,0 +1,20 @@
+{
+  "name": "funhouse",
+  "private": true,
+  "description": "The mothership for creative experiments. Iggy would be proud.",
+  "scripts": {
+    "dev:ohara": "pnpm --filter ohara dev",
+    "build:ohara": "pnpm --filter ohara build",
+    "lint:ohara": "pnpm --filter ohara lint"
+  },
+  "devDependencies": {
+    "typescript": "^5"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": ["sharp", "supabase", "unrs-resolver"]
+  },
+  "engines": {
+    "node": ">=20",
+    "pnpm": ">=10"
+  }
+}
