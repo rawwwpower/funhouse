@@ -5,7 +5,9 @@
   "scripts": {
     "dev:ohara": "pnpm --filter ohara dev",
     "build:ohara": "pnpm --filter ohara build",
-    "lint:ohara": "pnpm --filter ohara lint"
+    "lint:ohara": "pnpm --filter ohara lint",
+    "dev:paper": "pnpm --filter paper dev",
+    "build:paper": "pnpm --filter paper build"
   },
   "devDependencies": {
     "typescript": "^5"
